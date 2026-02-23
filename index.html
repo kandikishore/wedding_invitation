@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wedding Invitation | Likhitha & Praveen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- BACKGROUND MUSIC -->
+<audio id="bgMusic" loop>
+  <source src="music/Radha Ramanam - SenSongsMp3.Co.mp3" type="audio/mpeg">
+</audio>
+<button class="music-btn" onclick="toggleMusic()">🎶</button>
+
+<!-- BUTTERFLY CONTAINER -->
+<div id="butterfly-layer"></div>
+
+<!-- HERO -->
+<section class="hero reveal">
+  <div class="invite-card">
+
+    <h1 class="invite-title">💐 Wedding Invitation 💐</h1>
+
+    <p class="invite-text">
+      With divine blessings and heartfelt joy,
+      we invite you and your family to celebrate the wedding of
+    </p>
+
+    <h2 class="names">Likhitha <span>&</span> Praveen</h2>
+
+    <p class="invite-text">
+      and be part of a sacred journey filled with love, tradition, and happiness.
+    </p>
+
+    <div id="countdown" class="countdown"></div>
+
+  </div>
+</section>
+
+<!-- COUPLE -->
+<section class="section reveal">
+  <h2>The Couple</h2>
+
+  <div class="flex">
+    <div class="card reveal">
+      <img src="images/bride pic.jpeg">
+      <h3>Likhitha</h3>
+      <p>
+        Daughter of <br>
+        <strong>Mr. Kandi Sankar Rao</strong> & <strong>Mrs. Parvathi</strong>
+      </p>
+      <p>
+        Brother: <strong>Kishore</strong><br>
+        A cherished family moment captured with love.
+      </p>
+    </div>
+
+    <div class="card reveal">
+      <img src="images/groom pic.jpeg">
+      <h3>Praveen</h3>
+      <p>
+        Son of <br>
+        <strong>Mr. Reddy Venkat Rao/strong> & <strong>Mrs. Lakshmi</strong>
+      </p>
+      <p>
+        Brother: <strong>Rohit</strong><br>
+        A cherished family moment captured with love.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section class="section highlight reveal">
+  <h2>Wedding Celebrations</h2>
+  <ul class="events">
+    <li>🌿 Bride’s Mehendi & Sangeet – <strong>March 5</strong></li>
+    <li>🌼 Haldi Ceremony – <strong>March 6</strong></li>
+    <li>🎉 Reception – <strong>March 7</strong></li>
+    <li>💍 Wedding Muhurtham – <strong>2:31 AM</strong></li>
+  </ul>
+</section>
+
+<!-- FAMILIES -->
+<section class="section reveal">
+  <h2>Bride’s Family</h2>
+  <img class="family-img reveal" src="images/">
+  <p class="family-text">Bound by love, tradition, and togetherness.</p>
+</section>
+
+<section class="section highlight reveal">
+  <h2>Groom’s Family</h2>
+  <img class="family-img reveal" src="images/groom-family.jpg">
+  <p class="family-text">A celebration of unity and joyful beginnings.</p>
+</section>
+
+<!-- VIDEO -->
+<section class="section reveal">
+  <h2>Beautiful Memories</h2>
+  <video controls class="reveal">
+    <source src="videos/memories.mp4">
+  </video>
+</section>
+
+<!-- VENUE -->
+<section class="section highlight reveal">
+  <h2>Wedding Venue</h2>
+  <p>Lendi Convention Hall, Vizianagaram</p>
+  <iframe class="reveal" src="https://www.google.com/maps?q=Lendi+College&output=embed"></iframe>
+</section>
+
+<footer class="reveal">
+  <p>We eagerly await your gracious presence 💖</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
